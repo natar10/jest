@@ -6,12 +6,6 @@ node_js:
   - '12'
 git:
   depth: 3
-install:
-  - bundle install
-  - nvm install node
-  - node -v
-  - npm i -g yarn
-  - yarn
 script:
   - yarn test
   - yarn build
